@@ -36,7 +36,7 @@ docker-compose-plugin -y
 
 # Add user to group docker
 
-sudo usermod -aG docker ${USER}
+sudo usermod -aG docker ubuntu
 
 # Verify that the Docker Engine installation is successful by running the hello-world image
 
